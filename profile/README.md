@@ -1,114 +1,161 @@
-## MedHive
+![github-submission-banner](https://github.com/user-attachments/assets/a1493b84-e4e2-456e-a791-ce35ee2bcf2f)
 
-MedHive is a Groq-powered AI companion delivering real-time health insights and recommendations. Leveraging a secure federated learning framework and Groq’s ultra-fast inference, MedHive ensures privacy, fairness, and seamless user experience in clinical and consumer health applications.
+# 🚀 Med
 
----
-
-## 🚀 Problem Statement
-
-Healthcare AI depends on large, diverse datasets to train models that generalize across different patient populations. However, strict privacy regulations (e.g., HIPAA, GDPR) prevent hospitals from sharing raw patient records, creating isolated "data silos". Models trained on narrow, homogeneous data sets often underrepresent minority groups, leading to biased predictions and unequal care outcomes.
-
-Clinicians and patients also expect instantaneous AI-driven insights during consultations or at the point of care, but traditional cloud-based inference can introduce latency and disrupt workflows.
+> A one-line tagline or mission statement for your project.
 
 ---
 
-## 🔍 Understanding the Challenge
+## 📌 Problem Statement
 
-1. **Privacy & Compliance**: Hospitals cannot share raw patient data due to legal and ethical constraints, limiting access to diverse training data.
-2. **Bias & Fairness**: Models trained on limited datasets may underperform for underrepresented groups, risking unequal care.
-3. **Real-Time Performance**: Clinical workflows demand low-latency inference for seamless decision support, which conventional cloud solutions struggle to provide.
+**Problem Statement 1 – Weave AI magic with **
 
 ---
 
-## 💡 MedHive’s Solution
+## 🎯 Objective
 
-### 1. Secure Federated Learning Framework
-- **Local Training**: Participating hospitals train models on-premises using their own patient records.
-- **Encrypted Aggregation**: Only encrypted model weight updates are shared with a central aggregator.
-- **Global Model**: The aggregator combines updates via a privacy-preserving protocol and returns an improved global model without ever exposing raw data.
+What problem does your project solve, and who does it serve?  
 
-### 2. Groq-Powered Real-Time Inference
-- **Ultra-Fast Inference**: Groq’s inference hardware (GroqCloud™/GroqRack™) processes large models (e.g., Llama-series) at hundreds of tokens per second.
-- **Seamless UX**: Instantaneous analysis of patient inputs, medical images, or sensor data enables both clinical decision support and consumer-facing health apps.
+- Medical research and machine learning models in healthcare have been historically limited by access to diverse patient data. Due to strict privacy concerns, hospitals cannot share raw patient data. This leads to biased models trained on limited populations. A Secure Federated Learning (FL) System that allows hospitals to collaboratively train machine learning models without exposing raw patient data. Hospitals upload their datasets, train models locally, and share encrypted model weights for collective learning.
 
-**Combined Benefits:**
-1. **Privacy**: Patients’ raw data stay on-premises; only encrypted model updates travel through the network.
-2. **Fairness**: Training on heterogeneous, multi-institutional datasets reduces bias and improves generalization.
-3. **Performance**: Real-time insights integrate smoothly into clinical workflows and mobile apps.
+Briefly describe the real-world use case and the value it provides.
+
+- A secure federated learning (FL) system where hospitals and research centers (data providers) train local models on sensitive patient data. The model weights are then encrypted and shared to build a robust, global model.
+- Addresses a key gap in healthcare AI: the inability to access diverse patient data due to privacy concerns. As a result, traditional ML models are often biased because they’re trained on limited populations.
+
 
 ---
 
-## ✨ Features
+## 🧠 Team & Approach
 
-- **Federated Learning Pipeline**: Secure, scalable FL using Flower.
-- **Real-Time Inference**: Powered by Groq API for sub-second response.
-- **Model Management & Tracking**: Integrated with MLflow for performance monitoring.
-- **Compliance by Design**: Meets HIPAA and GDPR requirements via encrypted weight aggregation.
-- **Interactive Dashboard**: Visualize model performance, data contribution, and system health.
+### Team Name:  
+`Port 3000`
+
+### Team Members:  
+- Debarati Seal [https://www.linkedin.com/in/debarati-seal-3604282b8/] 
+- Nasiruddin Thander [https://www.linkedin.com/in/nasiruddin-thander/]
+- Anirban Majumder [https://www.linkedin.com/in/anirban-majumder-/]
+- Archisha Upadhyaya [https://www.linkedin.com/in/archisha-upadhyaya-6a9220291/]
 
 ---
 
-## 🛠 Tech Stack
+## 🛠️ Tech Stack
 
-- **Frontend**: Next.js, TypeScript, Tailwind CSS
-- **Backend**: FastAPI (Python)
-- **Database**: Supabase, AstraDB
-- **Classical Models**: scikit-learn, TensorFlow
-- **Federated Learning**: Flower
-- **LLM & Inference**: Groq API, Hugging Face Spaces
-- **Model Registry & Monitoring**: MLflow
-- **Hosting**:
+### Core Technologies Used:
+
+- Frontend: Next.js, TypeScript, Tailwind CSS
+- Backend: FastAPI (Python)
+- Database: Supabase, AstraDB
+- Classical Models: scikit-learn, TensorFlow
+- Federated Learning: Flower
+- LLM & Inference: Groq API, Hugging Face Spaces
+- Model Registry & Monitoring: MLflow
+- Hosting:
   - Frontend: Vercel
   - Model Serving: Hugging Face Spaces
 
+
+### Sponsor Technologies Used (if any):
+- [✅] **Groq:** _How you used Groq_  
+- [ ] **Monad:** _Your blockchain implementation_  
+- [ ] **Fluvio:** _Real-time data handling_  
+- [ ] **Base:** _AgentKit / OnchainKit / Smart Wallet usage_  
+- [ ] **Screenpipe:** _Screen-based analytics or workflows_  
+- [ ] **Stellar:** _Payments, identity, or token usage_
+*(Mark with ✅ if completed)*
 ---
 
-## 📈 Data Flow Diagram
+## ✨ Key Features
 
-![Data Flow Diagram](docs/data_flow_diagram.png)
-
----
-
-## 🏁 Getting Started
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-org/MedHive.git
-   cd MedHive
-   ```
-2. **Configure your environment**:
-   - Create a `.env.local` file in the `frontend` and `backend` directories with your API keys and database URLs.
-3. **Install dependencies**:
-   ```bash
-   # Frontend
-   cd frontend && npm install
-
-   # Backend
-   cd ../backend && pip install -r requirements.txt
-   ```
-4. **Run locally**:
-   ```bash
-   # Start backend
-   uvicorn main:app --reload --port 8000
-
-   # Start frontend
-   cd ../frontend && npm run dev
-   ```
-5. **Access the app**:
-   Visit `http://localhost:3000` for the frontend and `http://localhost:8000/docs` for the FastAPI docs.
+Here’s how I would describe the **core features** of **MedHive**, covering everything your project offers, written in a style that's sharp, professional, and hackathon-ready:
 
 ---
 
-## 🤝 Contributing
+# 🧠 Core Features of MedHive
 
-We welcome contributions! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+### 1. **Federated Learning for Healthcare**
+- MedHive enables hospitals and research centers to **collaboratively train machine learning models** without sharing raw patient data.
+- Secure aggregation of encrypted model weights ensures **privacy-first learning** across diverse datasets.
+- Supports **multi-modal data** — text, images (X-rays, CT scans), PDFs, and handwritten prescriptions.
+
+### 2. **Groq-Powered AI Infrastructure**
+- Integrated **Groq inference** delivers **ultra-low latency** across chatbots, navigation agents, and real-time health insights.
+- Ensures **instantaneous AI interaction** even for complex tasks like symptom analysis and model selection.
+
+### 3. **Dynamic Model Hub**
+- A centralized **Model Hub** offering a range of disease-specific models: 
+  - Pneumonia detection from X-rays
+  - Glaucoma detection from FUNDUS images
+  - ECG curve analysis for heart abnormalities
+  - Breast cancer detection from medical scans
+  - LLM-powered symptom analyzer ("Dr. MedLiv")
+- **Hugging Face Spaces** hosting for scalable access and community contributions.
+
+### 4. **AI-Powered Navigation and Support Agents**
+- **Smart Navigation Agent** helps users quickly find models, data upload sections, and community tools.
+- **24/7 Groq-accelerated Chat Support** for user onboarding, FAQs, and technical troubleshooting.
+
+### 5. **Data Upload and Contribution Portal**
+- Hospitals and contributors can **upload and encrypt datasets** via a user-friendly portal.
+- Data is stored securely and linked to federated learning chains for ongoing model improvement.
+- Tracks contributions to encourage **data-driven community building**.
+
+### 6. **Real-Time Symptom Analysis (Dr. MedLiv)**
+- An intelligent assistant that allows users to **enter symptoms conversationally** and receive preliminary health insights instantly.
+- Powered by a custom **RAG (Retrieval-Augmented Generation)** stack and Groq's LLM infrastructure.
+
+### 7. **Multi-Tier User Management**
+- **Admin/Developer Portal**: Full access to system analytics, models, user management, and federated learning sessions.
+- **Data Providers**: Hospitals and institutions managing datasets and models.
+- **Contributors**: Volunteers participating in federated learning.
+- **Users**: General public accessing AI health tools.
+
+### 8. **End-to-End Encryption and Security**
+- Every model weight, dataset upload, and API request is protected with **custom encryption pipelines**.
+- Follows **HIPAA** and **GDPR** standards for medical data compliance.
+
+### 9. **Seamless Frontend with Next.js + Tailwind**
+- Highly responsive, professional UI/UX optimized for healthcare users.
+- Fast client-side rendering and real-time interactions ensure a modern web experience.
+
+### 10. **Open Science and Community Expansion**
+- Hospitals and developers can **contribute models**, **publish research** findings, and **collaborate globally**.
+- Built to evolve with community-driven innovation.
 
 ---
 
-## ⚖️ License
+## 📽️ Demo & Deliverables
 
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+- **Demo Video Link:** [https://www.youtube.com/watch?v=kfEp485KBf4]  
+- **Pitch Deck / PPT Link:** [https://www.canva.com/design/DAGlJCZ9a4s/8sqYQeTEBrp-Gor9sh4tUQ/edit?utm_content=DAGlJCZ9a4s&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)]
+- **Dataflow Diagram:** [https://app.eraser.io/workspace/Ytwr9A0TPiFqKkUzpP5b?origin=share)]
 
 ---
 
-_Developed with ❤️ by the MedHive team._
+## ✅ Tasks & Bonus Checklist
+
+- [✅] **All members of the team completed the mandatory task - Followed at least 2 of our social channels and filled the form** (Details in Participant Manual)  
+- [ ] **All members of the team completed Bonus Task 1 - Sharing of Badges and filled the form (2 points)**  (Details in Participant Manual)
+- [ ] **All members of the team completed Bonus Task 2 - Signing up for Sprint.dev and filled the form (3 points)**  (Details in Participant Manual)
+
+*(Mark with ✅ if completed)*
+
+---
+
+## 🧪 How to Run the Project
+
+### Requirements:
+- visit the respective repositories of indiviudal componenst 
+
+## 🧬 Future Scope
+
+List improvements, extensions, or follow-up features:
+
+- 📈 More Models for Model-Hove
+- 🛡️ Security enhancements  
+- 🌐 Hosting and Deployment of FL-Servers
+
+---
+
+
+---
