@@ -1,14 +1,14 @@
 ![github-submission-banner](https://github.com/user-attachments/assets/a1493b84-e4e2-456e-a791-ce35ee2bcf2f)
 
-# 🚀 Med
+# 🚀 MedHive
 
-> A one-line tagline or mission statement for your project.
+> Decentralized Data, Centralized Impact.
 
 ---
 
 ## 📌 Problem Statement
 
-**Problem Statement 1 – Weave AI magic with **
+**Problem Statement 1 – Weave AI magic with Groq’s blazing inference to unlock real-time, privacy-preserving healthcare insights.**
 
 ---
 
@@ -23,7 +23,6 @@ Briefly describe the real-world use case and the value it provides.
 - A secure federated learning (FL) system where hospitals and research centers (data providers) train local models on sensitive patient data. The model weights are then encrypted and shared to build a robust, global model.
 - Addresses a key gap in healthcare AI: the inability to access diverse patient data due to privacy concerns. As a result, traditional ML models are often biased because they’re trained on limited populations.
 
-
 ---
 
 ## 🧠 Team & Approach
@@ -32,10 +31,10 @@ Briefly describe the real-world use case and the value it provides.
 `Port 3000`
 
 ### Team Members:  
-- Debarati Seal [https://www.linkedin.com/in/debarati-seal-3604282b8/] 
-- Nasiruddin Thander [https://www.linkedin.com/in/nasiruddin-thander/]
-- Anirban Majumder [https://www.linkedin.com/in/anirban-majumder-/]
-- Archisha Upadhyaya [https://www.linkedin.com/in/archisha-upadhyaya-6a9220291/]
+- [Debarati Seal](https://www.linkedin.com/in/debarati-seal-3604282b8/)  
+- [Nasiruddin Thander](https://www.linkedin.com/in/nasiruddin-thander/)  
+- [Anirban Majumder](https://www.linkedin.com/in/anirban-majumder-/)  
+- [Archisha Upadhyaya](https://www.linkedin.com/in/archisha-upadhyaya-6a9220291/)
 
 ---
 
@@ -54,22 +53,19 @@ Briefly describe the real-world use case and the value it provides.
   - Frontend: Vercel
   - Model Serving: Hugging Face Spaces
 
-
 ### Sponsor Technologies Used (if any):
-- [✅] **Groq:** _How you used Groq_  
+- [✅] **Groq:** _Used Groq for ultra-low latency inference across chatbot, navigation agent, and Dr. MedLiv symptom analyzer._
 - [ ] **Monad:** _Your blockchain implementation_  
 - [ ] **Fluvio:** _Real-time data handling_  
 - [ ] **Base:** _AgentKit / OnchainKit / Smart Wallet usage_  
 - [ ] **Screenpipe:** _Screen-based analytics or workflows_  
 - [ ] **Stellar:** _Payments, identity, or token usage_
+
 *(Mark with ✅ if completed)*
+
 ---
 
 ## ✨ Key Features
-
-Here’s how I would describe the **core features** of **MedHive**, covering everything your project offers, written in a style that's sharp, professional, and hackathon-ready:
-
----
 
 # 🧠 Core Features of MedHive
 
@@ -126,17 +122,17 @@ Here’s how I would describe the **core features** of **MedHive**, covering eve
 
 ## 📽️ Demo & Deliverables
 
-- **Demo Video Link:** [https://www.youtube.com/watch?v=kfEp485KBf4]  
-- **Pitch Deck / PPT Link:** [https://www.canva.com/design/DAGlJCZ9a4s/8sqYQeTEBrp-Gor9sh4tUQ/edit?utm_content=DAGlJCZ9a4s&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)]
-- **Dataflow Diagram:** [https://app.eraser.io/workspace/Ytwr9A0TPiFqKkUzpP5b?origin=share)]
+- **Demo Video Link:** [Watch Demo](https://www.youtube.com/watch?v=kfEp485KBf4)  
+- **Pitch Deck / PPT Link:** [View Pitch Deck](https://www.canva.com/design/DAGlJCZ9a4s/8sqYQeTEBrp-Gor9sh4tUQ/edit?utm_content=DAGlJCZ9a4s&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)  
+- **Dataflow Diagram:** [View Dataflow](https://app.eraser.io/workspace/Ytwr9A0TPiFqKkUzpP5b?origin=share)
 
 ---
 
 ## ✅ Tasks & Bonus Checklist
 
-- [✅] **All members of the team completed the mandatory task - Followed at least 2 of our social channels and filled the form** (Details in Participant Manual)  
-- [ ] **All members of the team completed Bonus Task 1 - Sharing of Badges and filled the form (2 points)**  (Details in Participant Manual)
-- [ ] **All members of the team completed Bonus Task 2 - Signing up for Sprint.dev and filled the form (3 points)**  (Details in Participant Manual)
+- [✅] **All members of the team completed the mandatory task - Followed at least 2 of our social channels and filled the form**  
+- [ ] **All members of the team completed Bonus Task 1 - Sharing of Badges and filled the form (2 points)**  
+- [ ] **All members of the team completed Bonus Task 2 - Signing up for Sprint.dev and filled the form (3 points)**  
 
 *(Mark with ✅ if completed)*
 
@@ -145,17 +141,14 @@ Here’s how I would describe the **core features** of **MedHive**, covering eve
 ## 🧪 How to Run the Project
 
 ### Requirements:
-- visit the respective repositories of indiviudal componenst 
-
-## 🧬 Future Scope
-
-List improvements, extensions, or follow-up features:
-
-- 📈 More Models for Model-Hove
-- 🛡️ Security enhancements  
-- 🌐 Hosting and Deployment of FL-Servers
+- Visit the respective repositories of individual components (Frontend, Backend, FL-server, Model Hub) for setup instructions.
 
 ---
 
+## 🧬 Future Scope
+
+- 📈 More Models for Model-Hub expansion  
+- 🛡️ Advanced Security enhancements for Federated Learning  
+- 🌐 Full-scale Hosting and Deployment of FL-Servers with scalable hospital integrations  
 
 ---
